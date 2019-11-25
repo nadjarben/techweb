@@ -1,0 +1,23 @@
+.devis {
+    margin-top: 10vh;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.conception {
+    margin-top: 10vh;  
+    margin-bottom: 15vh
+}
+
+
+@media only screen and (max-width: 600px) {
+    .devis {
+        margin-top: 10vh;
+        height: 90vh;
+        background-position-y: 30vh;
+    }
+    .button {
+        margin-top: 5vh;
+    }
+} 

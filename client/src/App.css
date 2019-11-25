@@ -1,0 +1,19 @@
+.app {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paper{
+    position: absolute;
+}
+.lang {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .paper {
+        position: relative;
+    }
+    .lang {
+        width: 30%
+    }
+}
