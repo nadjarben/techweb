@@ -23,9 +23,9 @@ export default function Services() {
                     <br/>
                     <div className='text-left list'>
                     <li>{translate('home_serv_react_li1')}</li>
+                    <li>{translate('home_serv_react_li4')}</li>
                     <li>{translate('home_serv_react_li2')}</li>
                     <li>{translate('home_serv_react_li3')}</li>
-                    <li>{translate('home_serv_react_li4')}</li>
                     <br/>
                     <Button style={{color:'orange'}}>
                     {translate('home_descri_sav')}
@@ -41,7 +41,6 @@ export default function Services() {
                     <li>{translate('home_serv_seo_li2')}</li>
                     <li>{translate('home_serv_seo_li3')}</li>
                     <li>{translate('home_serv_seo_li4')}</li>
-                    <li>{translate('home_serv_seo_li5')}</li>
                     <br/>
                     <Button style={{color:'orange'}}>
                         {translate('home_descri_sav')}
@@ -57,7 +56,6 @@ export default function Services() {
                     <li>{translate('home_serv_node_li2')}</li>
                     <li>{translate('home_serv_node_li3')}</li>
                     <li>{translate('home_serv_node_li4')}</li>
-                    <li>{translate('home_serv_node_li5')}</li>
                     <br/>
                     <Button style={{color:'orange'}}>
                     {translate('home_descri_sav')}

@@ -3,7 +3,6 @@ import { I18nContextProvider } from "./i18n";
 import NavBar from './components/app/NavBar';
 import Footer from './components/app/Footer';
 import Home from './pages/Home';
-import HomeEn from './pages/en/HomeEn';
 import Web from './pages/Web';
 import Portfolio from './pages/Porfolio';
 import About from './pages/About'
@@ -20,7 +19,6 @@ export default function App() {
       <Router>
         <NavBar />
         <Route exact path="/" component={Home} />
-        <Route exact path="/en" component={HomeEn} />
         <Route exact path="/web" component={Web} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/about" component={About} />

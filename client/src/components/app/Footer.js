@@ -27,7 +27,7 @@ export default function Footer() {
                     </div>
                     <div className='col-md-4'>
                     <h5 className='footer-contact' style={{fontWeight:'bold'}}>{translate('footer_contact')}</h5>
-                    <p>nadjar.benjamin@gmail.com</p>
+                    <p>techwebdevs@gmail.com</p>
                     <p style={{marginTop:'-12px'}}>+972 58 630 55 15</p>
                     <p style={{marginTop:'-12px'}}>+336 67 97 42 54</p>
                     </div>

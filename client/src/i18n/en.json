@@ -7,25 +7,25 @@
 
   "footer_follow": "Follow me :",
   "footer_contact": "Contact me :",
-  "footer_mention": "Benjamin Nadjar - Freelance Developer - All right reserved - 2018",
+  "footer_mention": "TechWeb - Freelance Developers - All right reserved - 2018",
 
-  "home_descri_dev": "Developer",
+  "home_descri_dev": "Web Developers collective ",
   "home_descri_ref": "SEO Referencement",
   "home_descri_sav": "MORE",
 
-  "home_res_title" : "Opt for a React web application, responsive design optimized SEO",
+  "home_res_title" : "Opt for a React web application, responsive design and high level performance.",
   "home_res_title2" : "Creating a website or webapp in React JS is a strategic choice that could make a difference by :",
   "home_res_li1" : "The logic components for designers and developers, which translates into a standardization of support and time savings throughout the project.",
   "home_res_li2" : "A very short loading time: users becoming more demanding, to display a page instantly has become indispensable and the page loading speed is considerably optimized thanks to React JS and its virtual DOM which only loads the parts Interactive.",
   "home_res_li3" : "A more fluid user experience: the site is similar to a web application to better guide and convert the user.",
   "home_res_li4" : "Easy maintenance and evolutions thanks to a clean, structured and organized code.",
 
-  "home_serv_title": "From the creation of your web application to its referencing by the search engines, I will be able to accompany all of your digital strategy.",
+  "home_serv_title": "From the creation of your web application to its implementation, we will be able to help in all of your digital strategy.",
   "home_serv_react_title": "React.JS Application",
-  "home_serv_react_li1": "Development: HTML/CSS, JS & React/Redux",
+  "home_serv_react_li1": "Development with HTML/CSS, JS",
   "home_serv_react_li2": "Custom website integration",
   "home_serv_react_li3": "Progressive Web App, Single-page app React",
-  "home_serv_react_li4": "Target : Start-up, Large companies",
+  "home_serv_react_li4": "State Management with Redux",
   "home_serv_seo_title": "SEO Optimisation",
   "home_serv_seo_li1": "Technical Audit",
   "home_serv_seo_li2": "Keywords and Meta Definitions",
@@ -35,7 +35,7 @@
   "home_serv_node_title": "Node.Js Development",
   "home_serv_node_li1": "Back-End development with Js",
   "home_serv_node_li2": "Rest Api",
-  "home_serv_node_li3": "Best performances",
+  "home_serv_node_li3": "High level performances",
   "home_serv_node_li4": "Easily scalable",
   "home_serv_node_li5": "Target : Start-up, Large companies",
 
@@ -51,7 +51,7 @@
   "web_conc_cre_title": "CREATE",
   "web_conc_cre_descri": "The application is reviewed and adjusted throughout the design process based on your feedback.",
   "web_conc_ani_title": "ANIMATE",
-  "web_conc_ani_descri": "A custom animation to have a graphically pleasing web application. For that I appeal to a confirmed and award-winning graphic designer.",
+  "web_conc_ani_descri": "A custom animation to have a graphically pleasing web application. For that we appeal to a confirmed and award-winning graphic designer.",
   "web_conc_btn" : "ACCESS TO PORTFOLIO",
 
   "port_pres_title": "YOUR WEB APPLICATION",
@@ -76,7 +76,7 @@
   "abo_text_3": "Trained in management issues as well as in digitalisation and connected marketing, I will be able to support your company and help it to cross the digital revolution.",
   "abo_cv": "DOWNLOAD MY CV",
 
-  "form_contact": "Contact me",
+  "form_contact": "Contact us",
   "form_questions": "Do you have any questions ? Do you want to get a quote ?",
   "form_fulfil": "Fulfil the present formular.",
   "form_name": "Name",

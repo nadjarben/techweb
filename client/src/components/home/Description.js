@@ -3,7 +3,7 @@ import { I18nContext } from '../../i18n';
 import { Link } from 'react-router-dom';
 import TextLoop from "react-text-loop";
 import Fab from '@material-ui/core/Fab';
-import logo from '../../assets/logo_transparent.png';
+import logo from '../../assets/techweblogo.png';
 import { zoomInRight } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 
@@ -30,16 +30,15 @@ export default function Description() {
 
                 <div className='col-md-6 order-md-1 text-descri'>
                     <h3 style={{fontWeight:'bold'}}>
-                    <span>{translate('home_descri_dev')} Web Freelance </span>
+                        {translate('home_descri_dev')}
                     <TextLoop>
                         <p style={{color:'orange'}}>#React.Js</p>
                         <p style={{color:'orange'}}>#Node.Js</p>
                     </TextLoop>{" "}
                     </h3>
-                    <h5>{translate('home_descri_dev')} Web Front-End React</h5>
-                    <h5>{translate('home_descri_dev')} Web Back-End Node</h5>
+                    <h5>Front-End React</h5>
+                    <h5>Back-End Node</h5>
                     <h5>UX/UI Designer</h5>
-                    <h5>{translate('home_descri_ref')}</h5>
                     <br/>
                     <Link to='/web'>
                         <Fab style={{backgroundColor:'orange', fontWeight:'bold'}} variant="extended" aria-label="delete">

@@ -7,9 +7,9 @@
 
   "footer_follow": "Me suivre :",
   "footer_contact": "Me contacter :",
-  "footer_mention": "Benjamin Nadjar - Developpeur freelance - Tous droits réservés - 2018",
+  "footer_mention": "TechWeb - Developpeurs Freelances - Tous droits réservés - 2018",
 
-  "home_descri_dev": "Développeur",
+  "home_descri_dev": "Collectif de Web Développeurs ",
   "home_descri_ref": "Referencement SEO",
   "home_descri_sav": "EN SAVOIR PLUS",
 
@@ -20,12 +20,12 @@
   "home_res_li3" : "Une expérience utilisateur plus fluide : le site s’apparente à une web application pour mieux guider et convertir l’utilisateur.",
   "home_res_li4" : "Une maintenance et des évolutions facilitées grâce à un code propre, structuré et organisé.",
 
-  "home_serv_title": "De la création de votre application web à son référencement par les moteurs de recherche, je saurai accompagner l’ensemble de votre stratégie digitale.",
+  "home_serv_title": "De la création de votre application web à son implémentation, nous saurons vous accompagner dans l’ensemble de votre stratégie digitale.",
   "home_serv_react_title": "Application React.JS",
-  "home_serv_react_li1": "Développement: HTML/CSS, JS & React/Redux",
-  "home_serv_react_li2": "Intégration site web sur-mesure",
+  "home_serv_react_li1": "Développement en HTML/CSS, JS",
+  "home_serv_react_li2": "Intégration sur-mesure",
   "home_serv_react_li3": "Progressive Web App, Single-page app React",
-  "home_serv_react_li4": "Cible : Start-up, ETI, Grandes Entreprises",
+  "home_serv_react_li4": "Management des states: Redux",
   "home_serv_seo_title": "Optimisation SEO",
   "home_serv_seo_li1": "Audit technique",
   "home_serv_seo_li2": "Définitions des keywords et meta",
@@ -35,7 +35,7 @@
   "home_serv_node_title": "Développement Node.Js",
   "home_serv_node_li1": "Développement Back-End en Js",
   "home_serv_node_li2": "Rest Api",
-  "home_serv_node_li3": "Top niveau performance",
+  "home_serv_node_li3": "Haut niveau de performance",
   "home_serv_node_li4": "Facilement scalable",
   "home_serv_node_li5": "Cible : Start-up, ETI, Grandes Entreprises",
 
@@ -51,7 +51,7 @@
   "web_conc_cre_title": "CRÉER",
   "web_conc_cre_descri": "L'application est revue et ajustée durant tout le processus de conception selon vos retours.",
   "web_conc_ani_title": "ANIMER",
-  "web_conc_ani_descri": "Une animation sur mesure afin d'avoir une web application graphiquement agréable. Pour cela je fais appel à un graphiste confirmé et primé.",
+  "web_conc_ani_descri": "Une animation sur mesure afin d'avoir une web application graphiquement agréable. Pour cela nous faisons appel à un graphiste confirmé et primé.",
   "web_conc_btn" : "ACCÉDER AU PORTFOLIO",
 
   "port_pres_title": "VOTRE APPLICATION WEB",
