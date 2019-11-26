@@ -13,7 +13,7 @@ export default function Reponsive() {
         <div className='container respons'>
             <div className='row'>
                 <div className='col-md-6'>
-                    <h2 style={{fontWeight:'bold'}}>{translate('home_res_title')}
+                    <h2 className='opt' style={{fontWeight:'bold'}}>{translate('home_res_title')}
                     </h2>
                     <br/>
                     <h5 style={{color:'orange'}}>{translate('home_res_title2')}</h5>

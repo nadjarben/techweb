@@ -5,15 +5,15 @@
   "navbar_about": "A PROPOS",
   "navbar_contact": "CONTACT",
 
-  "footer_follow": "Me suivre :",
-  "footer_contact": "Me contacter :",
+  "footer_follow": "Nous suivre :",
+  "footer_contact": "Nous contacter :",
   "footer_mention": "TechWeb - Developpeurs Freelances - Tous droits réservés - 2018",
 
-  "home_descri_dev": "Collectif de Web Développeurs ",
+  "home_descri_dev": "Collectif de Développeurs ",
   "home_descri_ref": "Referencement SEO",
   "home_descri_sav": "EN SAVOIR PLUS",
 
-  "home_res_title" : "Optez pour une application web React, responsive Design optimisé SEO",
+  "home_res_title" : "Optez pour une application web React, responsive design avec un haut niveau de performance et optimisée SEO",
   "home_res_title2" : "Créer un site internet ou une webapp en React JS est un choix stratégique qui pourrait bien faire la différence grâce à :",
   "home_res_li1" : "La logique composants pour les designers et développeurs, ce qui se traduit par une uniformisation du support et gain de temps tout au long du projet.",
   "home_res_li2" : "Un temps de chargement très court : les utilisateurs devenant de plus en plus exigeants, afficher une page instantanément est devenu indispensable et la vitesse de chargement de la page s’en voit considérablement optimisée grâce à React JS et son DOM virtuel qui charge uniquement les parties « interactives ».",
@@ -24,20 +24,27 @@
   "home_serv_react_title": "Application React.JS",
   "home_serv_react_li1": "Développement en HTML/CSS, JS",
   "home_serv_react_li2": "Intégration sur-mesure",
-  "home_serv_react_li3": "Progressive Web App, Single-page app React",
+  "home_serv_react_li3": "Progressive Web App",
   "home_serv_react_li4": "Management des states: Redux",
-  "home_serv_seo_title": "Optimisation SEO",
-  "home_serv_seo_li1": "Audit technique",
-  "home_serv_seo_li2": "Définitions des keywords et meta",
-  "home_serv_seo_li3": "Outils d’aide au référencement",
-  "home_serv_seo_li4": "Optimisation pour les PWA",
-  "home_serv_seo_li5": "Cible : Tous types d’entreprises",
+
+  "home_serv_react_display_title": "Notre proposition React Js",
+
+  "home_serv_seo_title": "React Native Application",
+  "home_serv_seo_li1": "Applications hybrides iOs/Android",
+  "home_serv_seo_li2": "Réutilisabilité maximale du code",
+  "home_serv_seo_li3": "Peformances de haut niveau",
+  "home_serv_seo_li4": "Architecture modulable et intuitive",
+
+  "home_serv_seo_display_title": "Notre proposition React Native",
+
   "home_serv_node_title": "Développement Node.Js",
   "home_serv_node_li1": "Développement Back-End en Js",
-  "home_serv_node_li2": "Rest Api",
+  "home_serv_node_li2": "RESTful API / Microservices",
   "home_serv_node_li3": "Haut niveau de performance",
   "home_serv_node_li4": "Facilement scalable",
-  "home_serv_node_li5": "Cible : Start-up, ETI, Grandes Entreprises",
+
+  "home_serv_node_display_title": "Notre proposition Node",
+
 
   "web_devis_title": "Conception web & Référencement",
   "web_devis_title2": "VOTRE WEB APP EN 1 CLIC",
@@ -77,7 +84,7 @@
   "abo_cv": "TÉLÉCHARGER MON CV",
 
 
-  "form_contact": "Me contacter",
+  "form_contact": "Nous contacter",
   "form_questions": "Vous avez une question ? Vous souhaitez obtenir un devis ?",
   "form_fulfil": "Remplissez simplement ce formulaire.",
   "form_name": "Nom",

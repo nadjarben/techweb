@@ -34,11 +34,14 @@ export default function Description() {
                     <TextLoop>
                         <p style={{color:'orange'}}>#React.Js</p>
                         <p style={{color:'orange'}}>#Node.Js</p>
+                        <p style={{color:'orange'}}>#React.Native</p>
                     </TextLoop>{" "}
                     </h3>
-                    <h5>Front-End React</h5>
-                    <h5>Back-End Node</h5>
-                    <h5>UX/UI Designer</h5>
+                    <br/>
+                    <h5>Front-End React Development</h5>
+                    <h5>Back-End Node Development</h5>
+                    <h5>UX/UI Design</h5>
+                    <h5>Application Testing</h5>
                     <br/>
                     <Link to='/web'>
                         <Fab style={{backgroundColor:'orange', fontWeight:'bold'}} variant="extended" aria-label="delete">

@@ -29,13 +29,17 @@
 li {
     list-style-type: decimal
 }
+.text-deskopt-display {
+    text-align: center;
+    margin-top: 5vh;
+}
 
 .respons {
     margin-top: 10vh;
 }
 .serv {
     margin-top: 20vh;
-    height: 83vh;
+    height: auto;
 }
 .text-serv {
     padding-left: 250px;
@@ -49,6 +53,13 @@ li {
     .descri {
         margin-top: 10vh;
         height: 90vh;
+    }
+    .text-descri {
+        margin-top: 9vh;
+        text-align:center;
+    }
+    .opt {
+        font-size: 22px;
     }
     .respons {
         margin-top: 5vh;
