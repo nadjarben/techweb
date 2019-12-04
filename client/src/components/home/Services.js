@@ -42,10 +42,12 @@ export default function Services() {
                     <h5 style={{marginTop:'2vh', fontWeight:'bold'}}>{translate('home_serv_react_title')}</h5>
                     <br/>
                     <div className='text-left list'>
-                    <li>{translate('home_serv_react_li1')}</li>
-                    <li>{translate('home_serv_react_li4')}</li>
-                    <li>{translate('home_serv_react_li2')}</li>
-                    <li>{translate('home_serv_react_li3')}</li>
+                        <ul className='list-services'>
+                            <li>{translate('home_serv_react_li1')}</li>
+                            <li>{translate('home_serv_react_li4')}</li>
+                            <li>{translate('home_serv_react_li2')}</li>
+                            <li>{translate('home_serv_react_li3')}</li>
+                        </ul>
                     <br/>
                     <Button
                         onClick={() => setDisplayRjs(!displayRjs) 
@@ -62,10 +64,12 @@ export default function Services() {
                     <h5 style={{marginTop:'0vh', fontWeight:'bold'}}>{translate('home_serv_seo_title')}</h5>
                     <br/>
                     <div className='text-left'>
-                    <li>{translate('home_serv_seo_li1')}</li>
-                    <li>{translate('home_serv_seo_li2')}</li>
-                    <li>{translate('home_serv_seo_li3')}</li>
-                    <li>{translate('home_serv_seo_li4')}</li>
+                        <ul className='list-services'>
+                            <li>{translate('home_serv_seo_li1')}</li>
+                            <li>{translate('home_serv_seo_li2')}</li>
+                            <li>{translate('home_serv_seo_li3')}</li>
+                            <li>{translate('home_serv_seo_li4')}</li>
+                        </ul>
                     <br/>
                     <Button 
                         onClick={() => setDisplayRn(!displayRn)
@@ -82,10 +86,12 @@ export default function Services() {
                     <h5 style={{marginTop:'2vh', fontWeight:'bold'}}>{translate('home_serv_node_title')}</h5>
                     <br/>
                     <div className='text-left'>
-                    <li>{translate('home_serv_node_li1')}</li>
-                    <li>{translate('home_serv_node_li2')}</li>
-                    <li>{translate('home_serv_node_li3')}</li>
-                    <li>{translate('home_serv_node_li4')}</li>
+                        <ul className='list-services'>
+                            <li>{translate('home_serv_node_li1')}</li>
+                            <li>{translate('home_serv_node_li2')}</li>
+                            <li>{translate('home_serv_node_li3')}</li>
+                            <li>{translate('home_serv_node_li4')}</li>
+                        </ul>
                     <br/>
                     <Button
                         onClick={() => setDisplayNode(!displayNode)

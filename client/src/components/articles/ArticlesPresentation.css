@@ -1,0 +1,13 @@
+.container-articles {
+    margin-top: 13vh;
+}
+.list-themes {
+    margin-top: 5vh;
+}
+.articles-subtitle {
+    color: orange;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+} 

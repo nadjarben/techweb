@@ -6,7 +6,7 @@ import {
   Grid, SwipeableDrawer
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import LanguageSelect from './LanguageSelect2';
+import LanguageSelect from './LanguageSelect';
 import { Link } from 'react-router-dom';
 
 const styleSheet = {
@@ -75,6 +75,8 @@ export default function ResAppBar() {
                <ListItem key = {1} button divider><Link to='/' className='link2'>{translate('navbar_home')}</Link></ListItem>
                <ListItem key = {2} button divider><Link to='/web' className='link2'>{translate('navbar_web')}</Link></ListItem>
                <ListItem key = {3} button divider><Link to='/portfolio' className='link2'>{translate('navbar_portfolio')}</Link></ListItem>
+               <ListItem key = {6} button divider><Link to='/articles' className='link2'>{translate('navbar_articles')}</Link></ListItem>
+               <ListItem key = {7} button divider><Link to='/questions' className='link2'>{translate('navbar_questions')}</Link></ListItem>
                <ListItem key = {4} button divider><Link to='/about' className='link2'>{translate('navbar_about')}</Link></ListItem>
                <ListItem key = {5} button divider><Link to='/contact' className='link2'>{translate('navbar_contact')}</Link></ListItem>
              </List>
@@ -96,8 +98,10 @@ export default function ResAppBar() {
               <Typography><Link className='link' to='/'>{translate('navbar_home')}</Link></Typography>
               <Typography><Link className='link' to='/web'>{translate('navbar_web')}</Link></Typography>
               <Typography><Link to='/portfolio' className='link'>{translate('navbar_portfolio')}</Link></Typography>
+              <Typography><Link to='/articles' className='link'>{translate('navbar_articles')}</Link></Typography>
+              <Typography><Link to='/questions' className='link'>{translate('navbar_questions')}</Link></Typography>
               <Typography><Link to='/about' className='link'>{translate('navbar_about')}</Link></Typography>
-              <Typography><Link to='contact' className='link'>{translate('navbar_contact')}</Link></Typography>
+              <Typography><Link to='/contact' className='link'>{translate('navbar_contact')}</Link></Typography>
               <LanguageSelect />
             </Toolbar>
             </div>

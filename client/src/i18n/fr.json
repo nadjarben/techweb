@@ -2,6 +2,8 @@
   "navbar_home": "ACCUEIL",
   "navbar_web": "WEB",
   "navbar_portfolio": "PORTFOLIO",
+  "navbar_articles": "ARTICLES",
+  "navbar_questions": "QUESTIONS",
   "navbar_about": "A PROPOS",
   "navbar_contact": "CONTACT",
 
@@ -86,11 +88,16 @@
 
   "abo_share_title": "Parce que le développement est une question de partage",
   "abo_share_text1": "Nous sommes tous passionnés de développement et nous savons que le développement et la base de notre travail est possible grâce au partage des connaissances, alors n'hésitez pas pour toute questions à ce sujet.",
-  "abo_share_text2": "Nous repondrons avec plaisir à vos questions dans la section question ou en prive via le formulaire de contact.",
+  "abo_share_text2": "Nous repondrons avec plaisir à vos questions dans la section question ou en privé via le formulaire de contact.",
 
   "form_contact": "Nous contacter",
   "form_questions": "Vous avez une question ? Vous souhaitez obtenir un devis ?",
   "form_fulfil": "Remplissez simplement ce formulaire.",
   "form_name": "Nom",
-  "form_button": "Envoyer"
+  "form_button": "Envoyer",
+
+
+  "articles_title": "Articles",
+  "articles_subtitle": "Trouvez les articles et tutoriels de nos différents collaborateurs"
+
 }

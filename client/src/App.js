@@ -7,6 +7,8 @@ import Web from './pages/Web';
 import Portfolio from './pages/Porfolio';
 import About from './pages/About'
 import Contact from './pages/Contact';
+import Articles from './pages/Articles';
+import Questions from './pages/Questions';
 import WhatsApp from './components/app/WhatsApp';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
@@ -23,6 +25,8 @@ export default function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/articles" component={Articles} />
+        <Route exact path="/questions" component={Questions} />
         <Footer />
         <WhatsApp />
       </Router>
