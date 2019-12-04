@@ -98,6 +98,26 @@
 
 
   "articles_title": "Articles",
-  "articles_subtitle": "Trouvez les articles et tutoriels de nos différents collaborateurs"
+  "articles_subtitle": "Trouvez les articles et tutoriels de nos différents collaborateurs",
+
+  "articles_react_article1": "Dois-je apprendre React Hooks ?",
+  "articles_react_article2": "setState avec React Hooks",
+  "articles_react_article3": "Les meilleures pratiques d'optimisation de performances sur React",
+  "articles_react_article4": "React Js vs Angular",
+
+  "articles_reactn_article1": "Opter pour une application hybride ?",
+  "articles_reactn_article2": "Avantages vs inconvénients de React Native",
+  "articles_reactn_article3": "React Native est-il mature ?",
+  "articles_reactn_article4": "",
+
+  "articles_node_article1": "Introduction à Node",
+  "articles_node_article2": "Scaler une application Node",
+  "articles_node_article3": "Bonnes pratiques pour un haut niveau de performances",
+  "articles_node_article4": "Utiliser le Async/Await avec Node ?",
+
+  "articles_seo_article1": "React est-il SEO friendly ? Les Web crawlers sont plus intelligents que vous ne le pensez.",
+  "articles_seo_article2": "Meilleures pratiques SEO sur React",
+  "articles_seo_article3": "Gérer dynamiquement les Headers avec React Helmet",
+  "articles_seo_article4": ""
 
 }
