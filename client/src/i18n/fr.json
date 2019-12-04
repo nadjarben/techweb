@@ -11,8 +11,9 @@
 
   "home_descri_dev": "Collectif de Développeurs ",
   "home_descri_ref": "Referencement SEO",
-  "home_descri_sav": "EN SAVOIR PLUS",
-
+  "home_descri_sav1": "UNE QUESTION A PROPOS DES TECHNOLOGIES WEB ?",
+  "home_descri_sav2": "ARTICLES",
+  
   "home_res_title" : "Optez pour une application web React, responsive design avec un haut niveau de performance et optimisée SEO",
   "home_res_title2" : "Créer un site internet ou une webapp en React JS est un choix stratégique qui pourrait bien faire la différence grâce à :",
   "home_res_li1" : "La logique composants pour les designers et développeurs, ce qui se traduit par une uniformisation du support et gain de temps tout au long du projet.",

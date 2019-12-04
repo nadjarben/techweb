@@ -6,7 +6,7 @@ import {
   Grid, SwipeableDrawer
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import LanguageSelect from './LanguageSelect';
+import LanguageSelect from './LanguageSelect2';
 import { Link } from 'react-router-dom';
 
 const styleSheet = {
@@ -54,18 +54,15 @@ export default function ResAppBar() {
               <MenuIcon
               style={styleSheet.sideBarIcon}
                 onClick={()=>{setDrawer(true)}} />
-
+              <LanguageSelect />
             </Grid>
           </Toolbar>
         </AppBar>
-
 
         <SwipeableDrawer
          open={drawer}
          onClose={()=>{setDrawer(false)}}
          onOpen={()=>{setDrawer(true)}}>
-
-          <LanguageSelect />
           
            <div
            style={{backgroundColor:'orange', height:'100vh'}}
@@ -75,8 +72,6 @@ export default function ResAppBar() {
              onKeyDown={()=>{setDrawer(false)}}>
 
             <List style = {styleSheet.list}>
-                         <LanguageSelect />
-
                <ListItem key = {1} button divider><Link to='/' className='link2'>{translate('navbar_home')}</Link></ListItem>
                <ListItem key = {2} button divider><Link to='/web' className='link2'>{translate('navbar_web')}</Link></ListItem>
                <ListItem key = {3} button divider><Link to='/portfolio' className='link2'>{translate('navbar_portfolio')}</Link></ListItem>

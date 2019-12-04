@@ -1,6 +1,6 @@
 
 import React, { useContext } from "react";
-import { I18nContext } from "../../i18n/";
+import { I18nContext } from "../../i18n";
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
@@ -36,7 +36,7 @@ export default function LanguageSelect() {
   <div className={classes.root}>
     <ClickAwayListener onClickAway={handleClickAway}>
       <div>
-        <Typography className='link' onClick={handleClick}>LANGUAGE</Typography>
+        <Typography className='link' onClick={handleClick}></Typography>
         {open ? (
           <Paper className='paper'>
           <div className='lang' onClick={() => dispatch({type:'setLanguage', payload: 'en'})}><img src={en} width='30%' alt='en' /></div>
