@@ -32,10 +32,10 @@ const Example = (props) => {
         </DropdownToggle>
       <DropdownMenu flip={false}>
         <DropdownItem>
-        <div className='lang' onClick={() => dispatch({type:'setLanguage', payload: 'en'})}><img src={en} width='80%' alt='en' /></div>
+        <div className='lang' onClick={() => dispatch({type:'setLanguage', payload: 'en'})}><img src={en} width='25px' alt='en' /></div>
         </DropdownItem>
         <DropdownItem>
-        <div className='lang' onClick={() => dispatch({type:'setLanguage', payload: 'fr'})}><img src={fr} width='80%' alt='fr' /></div>
+        <div className='lang' onClick={() => dispatch({type:'setLanguage', payload: 'fr'})}><img src={fr} width='25px' alt='fr' /></div>
         </DropdownItem>
       </DropdownMenu>
     </Dropdown>

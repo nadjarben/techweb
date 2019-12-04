@@ -4,6 +4,9 @@
 .cv {
     margin-top: 10vh;
 }
+.share-text {
+    margin-top: 15vh;
+}
 
 @media only screen and (max-width: 600px) {
     .about {
@@ -12,5 +15,11 @@
     }
     .cv {
         margin-top: 5vh
+    }
+    .share-text {
+        margin-top: 3vh;
+    }
+    .share-pic {
+        margin-top: 10vh;
     }
 } 

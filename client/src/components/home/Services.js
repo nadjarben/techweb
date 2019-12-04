@@ -1,22 +1,19 @@
-import React, {useContext, useState, useEffect} from 'react';
+import React, {useContext, useState } from 'react';
 import { I18nContext } from '../../i18n';
 import Divider from '@material-ui/core/Divider';
 import Button from '@material-ui/core/Button';
 import react from '../../assets/react.png';
 import wp from '../../assets/wp.png'
 import seo from '../../assets/seo.png';
-import ReactJs from './services/ReactJs';
-import ReactNative from './services/ReactNative';
-import Node from './services/Node';
 
 export default function Services() {
     const { translate } = useContext(I18nContext);
     const [displayRn, setDisplayRn] = useState(false);
     const [displayRjs, setDisplayRjs] = useState(false);
     const [displayNode, setDisplayNode] = useState(false);
+    /*
     const [isMobile, setIsmobile] = useState(false);
     const [isDeskopt, setIsDeskopt] = useState(false);
-
     useEffect(() => {
         // Update the document title using the browser API
         screenSize();
@@ -30,7 +27,7 @@ export default function Services() {
             setIsDeskopt(true)
         }
     }
-
+    */
     return (
         <div>
         <Divider variant="middle" />
@@ -58,7 +55,6 @@ export default function Services() {
                         style={{color:'orange'}}>
                         {translate('home_descri_sav')}
                     </Button>
-                    {displayRjs && isMobile && <ReactJs />}
                     </div>
                 </div>
                 <div className='col-md-4'>
@@ -79,7 +75,6 @@ export default function Services() {
                         style={{color:'orange'}}>
                         {translate('home_descri_sav')}
                     </Button>
-                    {displayRn && isMobile && <ReactNative />}                    
                 </div>
                 </div>
                 <div className='col-md-4'>
@@ -100,14 +95,8 @@ export default function Services() {
                         style={{color:'orange'}}>
                         {translate('home_descri_sav')}
                     </Button>
-                    {displayNode && isMobile && <Node />}
                     </div>
                 </div>
-            </div>
-            <div className='text-deskopt-display'>
-                {displayRjs && isDeskopt && <ReactJs />}
-                {displayRn && isDeskopt && <ReactNative />}
-                {displayNode && isDeskopt && <Node />}
             </div>
         </div>
     

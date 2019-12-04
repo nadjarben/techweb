@@ -1,10 +1,11 @@
 import React, { useContext } from 'react';
 import { I18nContext } from '../../i18n';
+import cvphoto from '../../assets/dev.png';
+import share from '../../assets/share.png';
 import Fab from '@material-ui/core/Fab';
-import cvphoto from '../../assets/cvphoto.png';
+import { Link } from 'react-router-dom';
 import { zoomIn } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
-import cv from '../../assets/cv-bn.pdf'
 
 const styles = {
     bounce: {
@@ -25,7 +26,7 @@ export default function Who() {
                 <div className='col-md-6'>
                 <StyleRoot>
                         <div style={styles.bounce}>
-                            <img src={cvphoto} alt='cv' width='50%' />                 
+                            <img src={cvphoto} alt='cv' width='80%' />                 
                         </div>
                     </StyleRoot>
                 </div>
@@ -39,10 +40,36 @@ export default function Who() {
                         </p>
                 </div>
             </div>
-            <div className='text-center'>
-            <a href={cv}><Fab style={{backgroundColor:'orange', fontWeight:'bold', marginTop:'5vh'}} variant="extended" aria-label="delete">
-                {translate('abo_cv')}
-            </Fab></a>
+            <div className='text-center' style={{marginTop:'10vh'}}>
+                <h2 style={{color:'orange'}}>{translate('abo_share_title')}</h2>
+                <p style={{marginTop:'3vh'}}>{translate('abo_share_text1')}</p>
+                <p style={{fontWeight:'bold'}}>{translate('abo_share_text2')}</p>
+            </div>
+            <div className='row' style={{marginTop:'3vh'}}>
+                <div className='col-6 text-center share-text'>
+                <Link>
+                    <Fab style={{backgroundColor:'orange', fontWeight:'bold', height:'auto', minHeight:'9vh'}} variant="extended" aria-label="delete">
+                        {translate('home_descri_sav1')}
+                    </Fab>
+                </Link>
+                <br/>
+                <br/>
+                <Link>
+                    <Fab style={{backgroundColor:'orange', fontWeight:'bold'}} variant="extended" aria-label="delete">
+                        {translate('home_descri_sav2')}
+                    </Fab>
+                </Link>
+                <br/>
+                <br/>
+                <Link to='contact'>
+                    <Fab style={{backgroundColor:'orange', fontWeight:'bold'}} variant="extended" aria-label="delete">
+                        {translate('navbar_contact')}
+                    </Fab>
+                </Link>
+                </div>
+                <div className='col-6 share-pic'>
+                    <img src={share} alt='share' width='100%' />                 
+                </div>
             </div>
         </div>
     )

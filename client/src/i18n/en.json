@@ -1,6 +1,6 @@
 {
   "navbar_home": "HOME",
-  "navbar_web": "WEB & SEO",
+  "navbar_web": "WEB",
   "navbar_portfolio": "PORTFOLIO",
   "navbar_about": "ABOUT",
   "navbar_contact": "CONTACT",
@@ -11,6 +11,7 @@
 
   "home_descri_dev": "Web Developers collective ",
   "home_descri_ref": "SEO Referencement",
+  "home_descri_sav": "More",
   "home_descri_sav1": "ASK ANY QUESTION ABOUT WEB TECHNOLOGIES",
   "home_descri_sav2": "ARTICLES",
 
@@ -62,7 +63,7 @@
   "web_conc_btn" : "ACCESS TO PORTFOLIO",
 
   "port_pres_title": "YOUR WEB APPLICATION",
-  "port_proj_title": "MY PROJECTS",
+  "port_proj_title": "OUR PROJECTS",
   "port_yfo_1": "This is an app built for restaurants and hotels in order to increase the productivity of their places.",
   "port_yfo_2": "QRs codes were disposed in the restaurants which permit to the customers to order by themselves.",
   "port_yfo_3": "I handled the frond end developement with react js and ui frameworks bootstrap and reactstrap.",
@@ -75,13 +76,17 @@
   "port_ft_3": "With Google Matrix and Google Places API I could have implement a fare tarification according to time distances and trips time and hours.",
 
   "abo_title1": "About",
-  "abo_title2_1": "Hiring a Freelancer is always a risky bet for a company,",
+  "abo_title2_1": "Hiring a developer is always a risky bet for a company,",
   "abo_title2_2": " that's why I propose that we get to know each other.",
-  "abo_title3": "Benjamin Nadjar, Developer, Entrepreneur and Passionate",
-  "abo_text_1": "Former lawyer specialized in patent law and new technologies, I was able after competition to undergo an intensive one-year computer training in Israel in which I learned to code, mainly javascript.",
-  "abo_text_2": "I accompany several companies to optimize the graphical aspect and content of their web application.",
-  "abo_text_3": "Trained in management issues as well as in digitalisation and connected marketing, I will be able to support your company and help it to cross the digital revolution.",
-  "abo_cv": "DOWNLOAD MY CV",
+  "abo_title3": "Web developer's collective, Entrepreneur and Passionate",
+
+  "abo_text_1": "We are a collective of French and Israeli developers currently counting four members and several specialties.",
+  "abo_text_2": "Each of us has broad specific skills, thanks to our diverse origins and our totally different social and professional backgrounds, we have been able to develop interesting skills.",
+  "abo_text_3": "Trained in management issues as well as in digitalisation and connected marketing, we will be able to support your company and help it to cross the digital revolution.",
+
+  "abo_share_title": "Because development is a sharing matter",
+  "abo_share_text1": "We are all passionate about developement and we know that the developement is the knownledge sharing, so don't hesitate to aks any question about development or anything else.",
+  "abo_share_text2": "It would be a pleasure for us to answer your in the question section or privately via the contact form.",
 
   "form_contact": "Contact us",
   "form_questions": "Do you have any questions ? Do you want to get a quote ?",
