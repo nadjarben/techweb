@@ -16,7 +16,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.1.0",
     "react-text-loop": "^2.0.2",
-    "reactstrap": "^8.1.1"
+    "reactstrap": "^8.1.1",
+    "react-snap": "^1.23.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,7 +44,4 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "react-snap": "^1.23.0"
-  }
 }
