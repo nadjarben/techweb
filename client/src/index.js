@@ -11,7 +11,6 @@ if (rootElement.hasChildNodes()) {
   ReactDOM.hydrate(<App />, rootElement);
 } else {
   ReactDOM.render(<App />, rootElement);
-  test
 }
 //ReactDOM.render(<App />, document.getElementById('root'));
 
