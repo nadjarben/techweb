@@ -27,11 +27,11 @@
     "postbuild": "react-snap"
   },
   "reactSnap": {
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
-    "concurrency": 1,
+    "cacheAjaxRequests": true,
     "inlineCss": true,
-    "puppeteerExecutablePath": "/usr/bin/chromium-browser"
-  }
+    "http2PushManifest": true,
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
