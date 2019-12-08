@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 import Articles from './pages/Articles';
 import Questions from './pages/Questions';
 import WhatsApp from './components/app/WhatsApp';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 export default function App() {
@@ -20,6 +20,7 @@ export default function App() {
       <I18nContextProvider>
       <Router>
         <NavBar />
+        <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/web" component={Web} />
         <Route exact path="/portfolio" component={Portfolio} />
@@ -27,6 +28,7 @@ export default function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/articles" component={Articles} />
         <Route exact path="/questions" component={Questions} />
+        </Switch>
         <Footer />
         <WhatsApp />
       </Router>

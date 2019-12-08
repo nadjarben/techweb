@@ -2,10 +2,11 @@ import React, { useReducer } from "react";
 
 import EN from "./en.json";
 import FR from "./fr.json";
+import ARTICLESEN from "./articlesEN.json"
 
 // To make it easier to read from JSON files
 const translations = {
-  en: EN,
+  en: EN, ARTICLESEN,
   fr: FR,
 };
 

@@ -43,14 +43,14 @@ export default function Description() {
                     <h5>UX/UI Design</h5>
                     <h5>Application Testing</h5>
                     <br/>
-                    <Link>
+                    <Link to='/questions'>
                         <Fab style={{backgroundColor:'orange', fontWeight:'bold'}} variant="extended" aria-label="delete">
                         {translate('home_descri_sav1')}
                         </Fab>
                     </Link>
                     <br/>
                     <br/>
-                    <Link>
+                    <Link to='articles'>
                         <Fab style={{backgroundColor:'orange', fontWeight:'bold'}} variant="extended" aria-label="delete">
                         {translate('home_descri_sav2')}
                         </Fab>

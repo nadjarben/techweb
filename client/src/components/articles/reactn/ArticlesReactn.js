@@ -5,7 +5,7 @@ export default function ArticlesReactn() {
     const { translate } = useContext(I18nContext);
     return (
         <div style={{marginTop:'5vh'}}> 
-            <h5 className='articles-subtitle'>React Native</h5>
+            <h5 className='articles-subtitle'>{translate('articles_reactn_title')}</h5>
             <ul className='ul list-themes'>
                 <li>
                     {translate('articles_reactn_article1')}

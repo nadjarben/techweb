@@ -5,7 +5,7 @@ export default function ArticlesReact() {
     const { translate } = useContext(I18nContext);
     return (
         <div style={{marginTop:'5vh'}}> 
-            <h5 className='articles-subtitle'>SEO & SEA</h5>
+            <h5 className='articles-subtitle'>{translate('articles_seo_title')}</h5>
             <ul className='ul list-themes'>
                 <li>
                     {translate('articles_seo_article1')}

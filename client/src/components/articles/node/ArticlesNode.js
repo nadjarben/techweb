@@ -5,7 +5,7 @@ export default function ArticlesNode() {
     const { translate } = useContext(I18nContext);
     return (
         <div style={{marginTop:'5vh'}}> 
-            <h5 className='articles-subtitle'>Node</h5>
+            <h5 className='articles-subtitle'>{translate('articles_node_title')}</h5>
             <ul className='ul list-themes'>
                 <li>
                 {translate('articles_node_article1')}

@@ -1,11 +1,11 @@
 import React, {useContext} from 'react';
 import { I18nContext } from '../../../i18n';
 
-export default function ArticlesReact(props) {
+export default function LearnReactHooks() {
     const { translate } = useContext(I18nContext);
     return (
         <div style={{marginTop:'5vh'}}> 
-            <h5 className='articles-subtitle'>React Js</h5>
+            <h5 className='articles-subtitle'>{translate('articles_react_title')}</h5>
             <ul className='ul list-themes'>
                 <li>
                     {translate('articles_react_article1')}
@@ -18,6 +18,9 @@ export default function ArticlesReact(props) {
                 </li>
                 <li>
                     {translate('articles_react_article4')}
+                </li>
+                <li>
+                    {translate('articles_react_article5')}
                 </li>
             </ul>
         </div>
