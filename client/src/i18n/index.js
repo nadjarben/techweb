@@ -2,11 +2,10 @@ import React, { useReducer } from "react";
 
 import EN from "./en.json";
 import FR from "./fr.json";
-import ARTICLESEN from "./articlesEN.json"
 
 // To make it easier to read from JSON files
 const translations = {
-  en: EN, ARTICLESEN,
+  en: EN,
   fr: FR,
 };
 
@@ -18,8 +17,8 @@ langCode will be the current language of the page
 and translate will be the method to translate keys
 into meaningful texts. Default language will be English */
 const initialState = {
-  langCode: "en",
-  translate: getTranslate("en"),
+  langCode: "fr",
+  translate: getTranslate("fr"),
 };
 
 export const I18nContext = React.createContext(initialState);
